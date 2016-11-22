@@ -1,0 +1,102 @@
+/* CURRENTLY IN: styles/main.css */
+body {
+    background-color: #4d4d4d;
+    font-size: 90%
+}
+
+.wrapper {
+	background-color: #4d4d4d;
+	width: 40%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    border: 5px solid gray;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    min-height: 300px;
+    font-family: Times;
+    color: white;
+    padding-bottom: 50px;
+}
+
+h1 {
+	font-size: 200%;
+	font-style: italic;
+    padding: 50px;
+}
+
+h2 {
+    font-size: 150%;
+    font-weight: bolder;
+    padding-bottom: 10px;
+}
+
+h3 {
+    font-size: 100%;
+    opacity: .50;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.center {
+	text-align: center;
+}
+
+.opaq-60 {
+    opacity: .50;
+}
+
+.bolder {
+    font-weight: bolder;
+}
+
+.text-small {
+    font-size: 80%
+}
+
+.padding-medium {
+    padding: 15px;
+}
+
+main {
+    width: 80%;
+    margin: 0 auto; 
+    line-height: 20px;
+}
+
+li {
+    list-style: square;
+}
+
+.float-right {
+    float: right;
+}
+
+img {
+    width: 45%;
+    height: auto;
+    padding: 2px;
+    border: 1px solid gray;
+    margin: 5px;
+}
+
+a:link {
+    color: teal;
+}
+
+a:visited {
+    color: white;
+}
+
+a {
+    text-decoration:none;
+    font-weight: bold;
+}
+
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
